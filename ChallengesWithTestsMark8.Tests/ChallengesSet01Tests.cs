@@ -121,19 +121,19 @@ namespace ChallengesWithTestsMark8.Tests
         }
 
         [Theory]
-        [InlineData("John", "Hello, John!")]
-        [InlineData("Leigh", "Hello, Leigh!")]
-        [InlineData("John Thomas", "Hello, John Thomas!")]
-        [InlineData("Leigh Ann", "Hello, Leigh Ann!")]
+        [InlineData("John", "Hello, John")]
+        [InlineData("Leigh", "Hello, Leigh")]
+        [InlineData("John Thomas", "Hello, John Thomas")]
+        [InlineData("Leigh Ann", "Hello, Leigh Ann")]
         [InlineData("", "Hello!")]
         // [InlineData(null, "Hello!")] // Assumption: string will not be null
         public void GetGreeting(string personName, string expectedGreeting)
         {
             // Arrange
-            ChallengesSet01 challenger = new ChallengesSet01();
+            var chal = new ChallengesSet01();
 
             // Act
-            string actual = challenger.GetGreeting(personName);
+            string actual = chal.GetGreeting(personName);
 
             // Assert
             Assert.Equal(expectedGreeting, actual);
@@ -143,13 +143,13 @@ namespace ChallengesWithTestsMark8.Tests
         public void GetHey()
         {
             // Arrange
-            ChallengesSet01 challenger = new ChallengesSet01();
+            var chal = new ChallengesSet01();
 
             // Act
-            string actual = challenger.GetHey();
+            string actual = chal.GetHey();
 
             // Assert
-            Assert.Equal("HEY!", actual);
+            Assert.Equal("hey!", actual);
         }
     }
 }

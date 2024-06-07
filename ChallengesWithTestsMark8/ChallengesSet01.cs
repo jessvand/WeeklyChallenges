@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Linq;
 
 namespace ChallengesWithTestsMark8
 {
@@ -18,32 +19,49 @@ namespace ChallengesWithTestsMark8
 
         public double Subtract(double minuend, double subtrahend)
         {
-            throw new NotImplementedException();
+            var result = minuend - subtrahend;
+            return result;
         }
 
         public int Add(int number1, int number2)
         {
-            throw new NotImplementedException();
+            var addResult = number1 + number2;
+            return addResult;
         }
 
         public int GetSmallestNumber(int number1, int number2)
         {
-            throw new NotImplementedException();
+            if (number1 < number2)
+            {
+                return number1;
+            }
+
+            else
+            {
+                return number2;
+            }
         }
 
         public long Multiply(long factor1, long factor2)
         {
-            throw new NotImplementedException();
+            return factor1 * factor2;
         }
 
-        public string GetGreeting(string nameOfPerson)
+        public string GetGreeting(string name)
         {
-            throw new NotImplementedException();
+            if (string.IsNullOrEmpty(name))
+            {
+                return "Hello!";
+            }
+
+            var greeting = $"Hello, {name}";
+
+            return greeting;
         }
 
         public string GetHey()
         {
-            throw new NotImplementedException();
+            return "hey!";
         }
     }
 }
