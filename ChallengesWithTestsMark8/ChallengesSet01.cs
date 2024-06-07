@@ -1,5 +1,10 @@
 ﻿using System;
+<<<<<<< HEAD
 using System.Xml.Linq;
+=======
+using System.ComponentModel.Design;
+using System.Reflection.Metadata.Ecma335;
+>>>>>>> 6aa259e5b8ea7bb91097d77845ebf193aa3ed7f8
 
 namespace ChallengesWithTestsMark8
 {
@@ -7,6 +12,7 @@ namespace ChallengesWithTestsMark8
     {
         public bool AreTwoNumbersTheSame(int num1, int num2)
         {
+<<<<<<< HEAD
             if(num1 == num2)
             {
                 return true;
@@ -15,8 +21,10 @@ namespace ChallengesWithTestsMark8
             {
                 return false;
             }
+=======
+            return num1 == num2;
+>>>>>>> 6aa259e5b8ea7bb91097d77845ebf193aa3ed7f8
         }
-
         public double Subtract(double minuend, double subtrahend)
         {
             var result = minuend - subtrahend;
@@ -42,6 +50,7 @@ namespace ChallengesWithTestsMark8
             }
         }
 
+
         public long Multiply(long factor1, long factor2)
         {
             return factor1 * factor2;
@@ -49,6 +58,7 @@ namespace ChallengesWithTestsMark8
 
         public string GetGreeting(string name)
         {
+<<<<<<< HEAD
             if (string.IsNullOrEmpty(name))
             {
                 return "Hello!";
@@ -57,7 +67,22 @@ namespace ChallengesWithTestsMark8
             var greeting = $"Hello, {name}";
 
             return greeting;
+=======
+            if (nameOfPerson == "")
+            {
+                return "Whats Up?!";
+            }
+
+            else
+            {
+                return $"Hey hey hey, {nameOfPerson}";
+            }
+
+            return string.IsNullOrEmpty(nameOfPerson) ? "Howdie!" : $"Hey, {nameOfPerson}";
+
+>>>>>>> 6aa259e5b8ea7bb91097d77845ebf193aa3ed7f8
         }
+
 
         public string GetHey()
         {

@@ -1,13 +1,24 @@
+<<<<<<< HEAD
 C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.exe
 C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.deps.json
 C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.runtimeconfig.json
 C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.dll
 C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.pdb
+=======
+>>>>>>> 6aa259e5b8ea7bb91097d77845ebf193aa3ed7f8
 C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.AssemblyInfoInputs.cache
 C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.AssemblyInfo.cs
 C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.csproj.CoreCompileInputs.cache
 C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.sourcelink.json
+<<<<<<< HEAD
+=======
+C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.exe
+C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.deps.json
+C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.runtimeconfig.json
+C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.dll
+C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.pdb
+>>>>>>> 6aa259e5b8ea7bb91097d77845ebf193aa3ed7f8
 C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.dll
 C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\refint\ChallengesWithTestsMark8.dll
 C:\Users\jmvan\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.pdb
